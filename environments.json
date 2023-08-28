@@ -1,0 +1,47 @@
+{
+  "Environments": {
+    "Test": {
+      "LoginUrl": "https://www.saucedemo.com/",
+      "Users": {
+        "TestUser1": {
+          "Username": "standard_user",
+          "Password": "secret_sauce"
+        },
+        "TestUser2": {
+          "Username": "locked_out_user",
+          "Password": "secret_sauce"
+        },
+        "TestUser3": {
+          "Username": "problem_user",
+          "Password": "secret_sauce"
+        }
+      }
+    },
+    "Stage": {
+      "LoginUrl": "",
+      "Users": {
+        "TestUser1": {
+          "Username": "",
+          "Password": ""
+        },
+         "TestUser2": {
+          "Username": "",
+          "Password": ""
+        },
+          "TestUser3": {
+          "Username": "",
+          "Password": ""
+        }
+      }
+    },
+    "Prod": {
+      "LoginUrl": "",
+      "Users": {
+        "TestUser1": {
+          "Username": "",
+          "Password": ""
+        }
+      }
+    }
+  }
+}
